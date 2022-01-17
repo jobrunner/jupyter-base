@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  jupyter-lab:
+    image: jbrunnr/jupyter:1.0.0
+    container_name: jupyter-lab
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./work:/home/jovyan/work
