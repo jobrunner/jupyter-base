@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   jupyter-lab:
-    image: jbrunnr/jupyter:1.0.0
+    image: jbrunnr/jupyter:1.1.0
     container_name: jupyter-lab
     build:
       context: .

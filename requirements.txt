@@ -1,2 +1,10 @@
 plotly
 fcmpy
+graphviz
+chart-studio
+cufflinks
+pyarrow
+fastparquet
+pysd
+transformers
+mesa
