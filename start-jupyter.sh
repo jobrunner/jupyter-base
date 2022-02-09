@@ -4,9 +4,6 @@ docker-compose up -d --build
 
 # We need to parse token=<jupyter-token> after jupyter server has started
 TOKEN="Currently"
-#while true; do
-# '<a href="(.+)">HTTP</a>'
-
 next=true
 pattern='^token=[a-z0-9]{48}'
 while $next; do
